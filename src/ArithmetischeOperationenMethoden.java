@@ -16,6 +16,8 @@ public class ArithmetischeOperationenMethoden {
         printResult(multiplication(a, b));
         printResult(division(a, b));
         printResult(modulo(a, b));
+
+
     }
 
     public static void printResult(int result){
@@ -39,5 +41,17 @@ public class ArithmetischeOperationenMethoden {
 
     public static void AddAndPrint(int a, int b){
         System.out.println(a + " + " + b + " = " + (a + b));
+    }
+    public static void SubtractAndPrint(int a, int b){
+        System.out.println(a + " - " + b + " = " + (a - b));
+    }
+    public static void MultiplicateAndPrint(int a, int b){
+        System.out.println(a + " * " + b + " = " + (a * b));
+    }
+    public static void DivideAndPrint(int a, int b){
+        System.out.println(a + " / " + b + " = " + (a / b));
+    }
+    public static void ModuloAndPrint(int a, int b){
+        System.out.println(a + " % " + b + " = " + (a % b));
     }
 }
