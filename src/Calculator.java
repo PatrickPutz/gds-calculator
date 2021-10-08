@@ -10,5 +10,14 @@ public class Calculator {
         System.out.println("d = " + d);
         String e = "Bamboozled";
         System.out.println("e = " + e);
+        
+        // modulo
+        boolean even = 2 % 2 == 0;
+        System.out.println("even = " + even);
+
+        // addition
+        int f = 2 + 3;
+        // subtraction
+        int g = 5 - 7;
     }
 }
