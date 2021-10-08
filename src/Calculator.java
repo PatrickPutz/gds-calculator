@@ -19,5 +19,11 @@ public class Calculator {
         int f = 2 + 3;
         // subtraction
         int g = 5 - 7;
+        
+        float fOne = 3.0f;
+        float fTwo = 2.0f;
+        
+        float fThree = fOne / fTwo;  // Division von integer werten mit float ergebnis: (a * 1.0) / (b * 1.0)
+        System.out.println("fThree = " + fThree);
     }
 }
