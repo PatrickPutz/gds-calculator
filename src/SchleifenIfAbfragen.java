@@ -30,12 +30,19 @@ public class SchleifenIfAbfragen {
 
         while(counter <= input){
             if((counter > 0) && (counter % 2 == 0)){
-                System.out.print(counter + ", ");
+                System.out.print(counter + " ");
             }
             counter++;
         }
         if(input <= 0){
             System.out.println("Value needs to be greater than 0.");
+        }
+
+        System.out.print("Enter a value: ");
+        input = getData.nextInt();
+
+        for(int i = 0; i <= input; i++){
+            System.out.println(i);
         }
 
 
