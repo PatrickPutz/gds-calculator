@@ -25,37 +25,62 @@ public class ArithmetischeOperationenMethoden {
     }
 
     public static void printResult(int result){
+
         System.out.println(result);
     }
+
     public static int addition(int a, int b){
+
         return a + b;
     }
     public static int subtraction(int a, int b){
+
         return a - b;
     }
     public static int multiplication(int a, int b){
+
         return a * b;
     }
     public static int division(int a, int b){
+        if (b == 0){
+            return 0;
+        } else{
         return a / b;
+        }
     }
     public static int modulo(int a, int b){
-        return a % b;
+        if(b == 0){
+            return 0;
+        }
+        else {
+            return a % b;
+        }
     }
 
     public static void addAndPrint(int a, int b){
+
         System.out.println(a + " + " + b + " = " + (a + b));
     }
     public static void subtractAndPrint(int a, int b){
+
         System.out.println(a + " - " + b + " = " + (a - b));
     }
     public static void multiplicateAndPrint(int a, int b){
+
         System.out.println(a + " * " + b + " = " + (a * b));
     }
     public static void divideAndPrint(int a, int b){
-        System.out.println(a + " / " + b + " = " + (a / b));
+        if (b == 0){
+            System.out.println("Dividing by 0 does not work.");
+        } else {
+            System.out.println(a + " / " + b + " = " + (a / b));
+        }
     }
     public static void moduloAndPrint(int a, int b){
-        System.out.println(a + " % " + b + " = " + (a % b));
+        if (b == 0){
+            System.out.println("Dividing by 0 does not work.");
+        } else {
+            System.out.println(a + " % " + b + " = " + (a % b));
+        }
     }
 }
